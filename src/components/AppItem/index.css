@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+.img {
+  height: 80px;
+  width: 80px;
+}
+.para {
+  color: #1e293b;
+  font-family: 'bree serif';
+}

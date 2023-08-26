@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input1 {
+  width: 250px;
+  height: 30px;
+  border: 0px, #7b8794;
+  border-radius: 5px;
+}
+.img1 {
+  height: 42px;
+  width: 30px;
+  padding-top: 20px;
+}
+.heading {
+  font-family: 'bree serif';
+  font-size: 35px;
+}
+.order {
+  display: flex;
+  align-items: center;
+}

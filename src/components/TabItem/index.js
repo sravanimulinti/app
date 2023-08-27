@@ -7,11 +7,11 @@ const TabItem = props => {
   const resultGet = () => {
     appListItem(tabId)
   }
-  const itemElement = isActive ? 'tab-button active' : 'tab-button'
+  const tableGet = isActive ? 'button' : 'save'
 
   return (
     <li className="">
-      <button className={itemElement} type="button" onClick={resultGet}>
+      <button className={tableGet} type="button" onClick={resultGet}>
         {displayText}
       </button>
     </li>

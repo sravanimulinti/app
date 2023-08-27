@@ -1,12 +1,14 @@
 // Write your code here
+import './index.css'
+
 const AppItem = props => {
   const {detailApp} = props
-  const {AppName, imgUrl} = detailApp
+  const {appName, imageUrl} = detailApp
 
   return (
     <li className="li">
-      <img src={imgUrl} className="img" alt={AppName} />
-      <p className="para">{AppName}</p>
+      <img src={imageUrl} className="img" alt={appName} />
+      <p className="para">{appName}</p>
     </li>
   )
 }

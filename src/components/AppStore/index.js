@@ -306,7 +306,7 @@ class AppStore extends Component {
   appListItem = searchItem => {
     const {activeElement} = this.state
     const filterElement = searchItem.filter(
-      eachItem => eachItem.category === activeElement,
+      eachItem => (eachItem.category === activeElement),
     )
     return filterElement
   }
